@@ -1,5 +1,5 @@
 #include "Chessman.h"
-
+#include<ChessBoard.h>
 Chessman::Chessman()
 {
 
@@ -31,26 +31,7 @@ bool Arms::check(int x,int y,int x1,int y1)
 bool Cannon::check(int x,int y,int x1,int y1)
 {
 
-    int dx=x1-x;
-    int dy=y1-y;
-    if(dx==0||dy==0)
-    {
-
-
-        return true;
-
-    }
-    else
-    {
-
-
-        return false;
-    }
-
-
-    return false;
-
-
+return false;
 }
 
 

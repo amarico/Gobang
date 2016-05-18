@@ -12,7 +12,7 @@ int main()
     //初始化棋盘
     ChessBoard Board;
     Board.display();
-    string color="black";
+    string color="white";
     //不断下棋
     do
     {
@@ -20,7 +20,7 @@ int main()
         if(color=="black")
         {
             int x,y,x1,y1;
-            cout<<"执黑者时间"<<endl;
+            cout<<"B移动时间"<<endl;
             cin>>x>>y>>x1>>y1;
             if(Board.move(color,x,y,x1,y1))
             {
@@ -40,9 +40,9 @@ int main()
         else
         {
             int x,y,x1,y1;
-            cout<<"执白者时间"<<endl;
+            cout<<"A移动时间"<<endl;
             cin>>x>>y>>x1>>y1;
-             if(Board.move(color,x,y,x1,y1))
+            if(Board.move(color,x,y,x1,y1))
             {
 
                 Board.replace(x,y,x1,y1);
@@ -61,3 +61,5 @@ int main()
     while(1);
     return 0;
 }
+
+
