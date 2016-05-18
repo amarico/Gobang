@@ -4,12 +4,13 @@
 	<User.h>
 	<ChessBoard.h>
 
-1463586149 source:d:\tool\gobang\src\chessboard.cpp
+1463586953 source:d:\tool\gobang\src\chessboard.cpp
 	"ChessBoard.h"
 	<iostream>
 	<Point.h>
 	<chessman.h>
 	<Bing.h>
+	<Pao.h>
 
 1463582747 d:\tool\gobang\include\chessboard.h
 	<Point.h>
@@ -47,4 +48,9 @@
 1463586513 d:\tool\gobang\include\bing.h
 	<chessman.h>
 	<string>
+
+1463586873 source:d:\tool\gobang\src\pao.cpp
+	"Pao.h"
+
+1463586814 d:\tool\gobang\include\pao.h
 

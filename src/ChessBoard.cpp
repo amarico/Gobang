@@ -3,6 +3,7 @@
 #include<Point.h>
 #include<chessman.h>
 #include<Bing.h>
+#include<Pao.h>
 using namespace std;
 Point *pp=new Point("non","non","non");
 Point *p=new Point("white","che","³µA");
@@ -89,13 +90,12 @@ bool ChessBoard::move(string userColor,int x,int y,int x1,int y1)
             }
             else if(tag=="pao")
             {
-
-
-                return true;
+                Pao pao;
+                return pao.check(x,y,x1,y1);
             }
             else
             {
-                return true;
+                return false;
 
             }
 
