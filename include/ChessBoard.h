@@ -1,6 +1,7 @@
 #ifndef CHESSBOARD_H
 #define CHESSBOARD_H
 #include<Point.h>
+#include<string>
 using namespace std;
 class ChessBoard
 {

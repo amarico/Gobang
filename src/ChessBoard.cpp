@@ -2,6 +2,7 @@
 #include<iostream>
 #include<Point.h>
 #include<chessman.h>
+#include<Bing.h>
 using namespace std;
 Point *pp=new Point("non","non","non");
 Point *p=new Point("white","che","车A");
@@ -35,10 +36,6 @@ Point ChessBoard::board[10][9]=
     *p,*p01,*p21,*p31,*p41,*p31,*p21,*p01,*p,
 
 };
-ChessBoard::ChessBoard()
-{
-
-}
 
 void ChessBoard::display()
 {
@@ -85,8 +82,8 @@ bool ChessBoard::move(string userColor,int x,int y,int x1,int y1)
             //此处处理的是兵的情况
             if(tag=="bing")
             {
-                Arms arms;
-                return arms.check(x,y,x1,y1);
+                Bing bing;
+                return bing.check(userColor,x,y,x1,y1);
 
 
             }
@@ -123,6 +120,11 @@ void ChessBoard::replace(int x,int y,int x1,int y1)
     board[x][y]=bornPoint;
 
 }
+ChessBoard::ChessBoard()
+{
+
+}
+
 ChessBoard::~ChessBoard()
 {
     //dtor
