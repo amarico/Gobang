@@ -1,22 +1,8 @@
 #include "Chessman.h"
 
-Chessman::Chessman(Point myBoard[10][9])
+Chessman::Chessman()
 {
-    for(int x=0; x<10; x++)
-    {
 
-        for(int y=0; y<9; y++)
-        {
-
-
-
-            board[x][y]=myBoard[x][y];
-
-
-
-
-        }
-    }
 }
 
 Chessman::~Chessman()
@@ -50,23 +36,6 @@ bool Cannon::check(int x,int y,int x1,int y1)
     if(dx==0||dy==0)
     {
 
-        if(dx==0)
-        {
-
-            for(int i=x+1; i<x1; i++)
-            {
-
-
-
-            }
-
-        }
-        else
-        {
-
-
-
-        }
 
         return true;
 

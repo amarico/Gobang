@@ -4,7 +4,7 @@
 	<User.h>
 	<ChessBoard.h>
 
-1463548875 source:d:\tool\gobang\src\chessboard.cpp
+1463550827 source:d:\tool\gobang\src\chessboard.cpp
 	"ChessBoard.h"
 	<iostream>
 	<Point.h>
@@ -19,7 +19,7 @@
 
 1463500276 d:\tool\gobang\include\player.h
 
-1463549366 d:\tool\gobang\include\chessman.h
+1463550890 d:\tool\gobang\include\chessman.h
 	<Point.h>
 
 1463501152 source:d:\tool\gobang\src\user.cpp
@@ -35,6 +35,6 @@
 1463543579 source:d:\tool\gobang\src\point.cpp
 	"Point.h"
 
-1463549272 source:d:\tool\gobang\src\chessman.cpp
+1463550861 source:d:\tool\gobang\src\chessman.cpp
 	"Chessman.h"
 

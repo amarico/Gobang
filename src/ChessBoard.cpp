@@ -67,7 +67,7 @@ bool ChessBoard::move(string userColor,int x,int y,int x1,int y1)
             //此处处理的是兵的情况
             if(tag=="arms")
             {
-                Arms arms(board[10][9]);
+                Arms arms;
                 return arms.check(x,y,x1,y1);
 
 
@@ -75,7 +75,7 @@ bool ChessBoard::move(string userColor,int x,int y,int x1,int y1)
             else if(tag=="cannon"){
 
 
-
+             return true;
             }
             else
             {

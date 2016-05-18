@@ -5,11 +5,9 @@
 class Chessman
 {
 public:
-    Chessman(Point board[10][9]);
+    Chessman();
     virtual ~Chessman();
     bool check();
-
-    Point board[10][9];
 protected:
 
 private:
@@ -20,7 +18,7 @@ class Arms:public Chessman
 
 
 public:
-    Arms(Point board[10][9]);
+
     bool check(int x,int y,int x1,int y1);
 
 
@@ -31,7 +29,7 @@ class Cannon:public Chessman
 {
 
 public:
-    Cannon(Point board[10][9]);
+
     bool check(int x,int y,int x1,int y1);
 
 
