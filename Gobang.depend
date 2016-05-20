@@ -75,9 +75,18 @@
 1463735651 d:\tool\gobang\include\ma.h
 	<string>
 
-1463737297 source:d:\tool\gobang\src\xiang.cpp
+1463738381 source:d:\tool\gobang\src\xiang.cpp
 	"Xiang.h"
+	<stdlib.h>
+	<ChessBoard.h>
 
 1463737247 d:\tool\gobang\include\xiang.h
+	<string>
+
+1463739320 source:d:\tool\gobang\src\shi.cpp
+	"Shi.h"
+	<stdlib.h>
+
+1463738939 d:\tool\gobang\include\shi.h
 	<string>
 

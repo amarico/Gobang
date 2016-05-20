@@ -56,7 +56,31 @@ bool Xiang::check(string color,int x,int y,int x1,int y1)
 
                 if(ChessBoard::board[x-1][y+1].getName()=="non")
                 {
-                    return true;
+                       if(color=="white")
+                    {
+                        if(x1<=5)
+                        {
+                            return true;
+                        }
+                        else
+                        {
+                            return false;
+                        }
+
+                    }
+                    else
+                    {
+                        if(x1>5)
+                        {
+                            return true;
+                        }
+                        else
+                        {
+                            return false;
+                        }
+
+
+                    }
                 }
                 else
                 {
@@ -72,7 +96,31 @@ bool Xiang::check(string color,int x,int y,int x1,int y1)
             {
                 if(ChessBoard::board[x+1][y-1].getName()=="non")
                 {
-                    return true;
+                        if(color=="white")
+                    {
+                        if(x1<=5)
+                        {
+                            return true;
+                        }
+                        else
+                        {
+                            return false;
+                        }
+
+                    }
+                    else
+                    {
+                        if(x1>5)
+                        {
+                            return true;
+                        }
+                        else
+                        {
+                            return false;
+                        }
+
+
+                    }
                 }
                 else
                 {
@@ -87,7 +135,31 @@ bool Xiang::check(string color,int x,int y,int x1,int y1)
 
                 if(ChessBoard::board[x+1][y+1].getName()=="non")
                 {
-                    return true;
+                        if(color=="white")
+                    {
+                        if(x1<=5)
+                        {
+                            return true;
+                        }
+                        else
+                        {
+                            return false;
+                        }
+
+                    }
+                    else
+                    {
+                        if(x1>5)
+                        {
+                            return true;
+                        }
+                        else
+                        {
+                            return false;
+                        }
+
+
+                    }
                 }
                 else
                 {
