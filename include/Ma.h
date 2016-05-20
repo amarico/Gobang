@@ -7,7 +7,7 @@ class Ma
     public:
         Ma();
         virtual ~Ma();
-        bool check(string color,int x,int y,int x1,int y1);
+        bool check(int x,int y,int x1,int y1);
     protected:
 
     private:
