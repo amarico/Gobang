@@ -4,6 +4,7 @@
 #include<chessman.h>
 #include<Bing.h>
 #include<Pao.h>
+#include<Che.h>
 using namespace std;
 Point *pp=new Point("non","non","non");
 Point *p=new Point("white","che","³µA");
@@ -34,7 +35,7 @@ Point ChessBoard::board[10][9]=
     *p61,*pp,*p61,*pp,*p61,*pp,*p61,*pp,*p61,
     *pp,*p51,*pp,*pp,*pp,*pp,*pp,*p51,*pp,
     *pp,*pp,*pp,*pp,*pp,*pp,*pp,*pp,*pp,
-    *p,*p01,*p21,*p31,*p41,*p31,*p21,*p01,*p,
+    *p01,*p11,*p21,*p31,*p41,*p31,*p21,*p11,*p01,
 
 };
 
@@ -92,6 +93,14 @@ bool ChessBoard::move(string userColor,int x,int y,int x1,int y1)
             {
                 Pao pao;
                 return pao.check(x,y,x1,y1);
+            }
+            else if(tag=="che")
+            {
+
+                Che che;
+                return che.check(x,y,x1,y1);
+
+
             }
             else
             {
