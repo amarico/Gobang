@@ -49,8 +49,10 @@
 	<chessman.h>
 	<string>
 
-1463586873 source:d:\tool\gobang\src\pao.cpp
+1463726838 source:d:\tool\gobang\src\pao.cpp
 	"Pao.h"
+	<iostream>
+	<ChessBoard.h>
 
 1463586814 d:\tool\gobang\include\pao.h
 

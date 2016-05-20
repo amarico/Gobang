@@ -34,12 +34,16 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/Bing.h" />
 		<Unit filename="include/ChessBoard.h" />
+		<Unit filename="include/Pao.h" />
 		<Unit filename="include/Point.h" />
 		<Unit filename="include/User.h" />
 		<Unit filename="include/chessman.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Bing.cpp" />
 		<Unit filename="src/ChessBoard.cpp" />
+		<Unit filename="src/Pao.cpp" />
 		<Unit filename="src/Point.cpp" />
 		<Unit filename="src/User.cpp" />
 		<Unit filename="src/chessman.cpp" />
