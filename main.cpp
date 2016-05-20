@@ -1,6 +1,8 @@
 #include <iostream>
 #include<User.h>
 #include<ChessBoard.h>
+#include<string>
+
 using namespace std;
 
 int main()
@@ -24,9 +26,20 @@ int main()
             cin>>x>>y>>x1>>y1;
             if(Board.move(color,x,y,x1,y1))
             {
+                if(ChessBoard::board[x1][y1].getType()=="jiang")
+                {
 
-                Board.replace(x,y,x1,y1);
-                color="white";
+                    cout<<"the  "<<user1.username<<"  win"<<endl;
+                    break;
+                }
+                else
+                {
+
+                    Board.replace(x,y,x1,y1);
+                    color="white";
+
+                }
+
 
             }
             else
@@ -45,8 +58,17 @@ int main()
             if(Board.move(color,x,y,x1,y1))
             {
 
-                Board.replace(x,y,x1,y1);
-                color="black";
+                if(ChessBoard::board[x1][y1].getType()=="jiang")
+                {
+
+                    cout<<"the  "<<user1.username<<"  win"<<endl;
+                    break;
+                }
+                else
+                {
+                    Board.replace(x,y,x1,y1);
+                    color="black";
+                }
 
             }
             else

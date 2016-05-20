@@ -1,10 +1,11 @@
 # depslib dependency file v1.0
-1463571793 source:d:\tool\gobang\main.cpp
+1463747407 source:d:\tool\gobang\main.cpp
 	<iostream>
 	<User.h>
 	<ChessBoard.h>
+	<string>
 
-1463737383 source:d:\tool\gobang\src\chessboard.cpp
+1463746867 source:d:\tool\gobang\src\chessboard.cpp
 	"ChessBoard.h"
 	<iostream>
 	<Point.h>
@@ -14,6 +15,8 @@
 	<Che.h>
 	<Ma.h>
 	<Xiang.h>
+	<Shi.h>
+	<Jiang.h>
 
 1463582747 d:\tool\gobang\include\chessboard.h
 	<Point.h>
@@ -31,7 +34,7 @@
 	<iostream>
 	"User.h"
 
-1463501157 d:\tool\gobang\include\user.h
+1463747401 d:\tool\gobang\include\user.h
 	<string>
 
 1463543442 d:\tool\gobang\include\point.h
@@ -88,5 +91,12 @@
 	<stdlib.h>
 
 1463738939 d:\tool\gobang\include\shi.h
+	<string>
+
+1463746739 source:d:\tool\gobang\src\jiang.cpp
+	"Jiang.h"
+	<stdlib.h>
+
+1463746552 d:\tool\gobang\include\jiang.h
 	<string>
 

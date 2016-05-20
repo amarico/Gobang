@@ -11,11 +11,10 @@ public:
 
     //用户类的具体内容
     void show();
-
+     string username;
 
 protected:
     //用户类的数据成员
-    string username;
     string  color;
     string result;
 

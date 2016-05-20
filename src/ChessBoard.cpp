@@ -8,6 +8,7 @@
 #include<Ma.h>
 #include<Xiang.h>
 #include<Shi.h>
+#include<Jiang.h>
 using namespace std;
 Point *pp=new Point("non","non","non");
 Point *p=new Point("white","che","³µA");
@@ -120,6 +121,13 @@ bool ChessBoard::move(string userColor,int x,int y,int x1,int y1)
 
                 Shi shi;
                 return shi.check(userColor,x,y,x1,y1);
+            }
+            else if(tag=="jiang"){
+
+
+                Jiang jiang;
+                return jiang.check(userColor,x,y,x1,y1);
+
             }
             else
             {
